@@ -69,6 +69,7 @@
   - jobs - manage background jobs
   - exitsh - exits submenu
   - quit - quit application
+  - help - lists available commands, what menu the user is in, categories, etc. Takes optional positional arguments of commands to display their help text
   - configure - change CLI configuration settings
     - extendable for re-use by applications
 
