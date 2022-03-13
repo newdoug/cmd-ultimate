@@ -17,7 +17,7 @@
   - multiple layers of subcommands
   - seemless integration with argparse library
   - also integrates with click? docopt? I just hate dealing with argparse actions and stuff sometimes... Maybe worth making own parsing library (doubt it)?
-- Tab completion capabilties
+- Tab completion capabilities
   - Want built-in support for:
     - Case-sensitive static lists (ordered)
     - Case-insensitive static lists (ordered)
@@ -76,9 +76,11 @@
 - Built-in configuration file format support?
 - Built-in logging ability
   - Log to syslog
+   - OutputDebugStringA on windows?
+   - Windows events?
   - Log to file(s)
   - Log levels setting
-  - Enablable and disablable/configurable at runtime and load time
+  - Enable and disable/configurable at runtime and load time
   - Changing of log format as well
   - Disabled by default, enablable easily though
   - Configurable from CLI config file if that idea is followed through with
@@ -130,3 +132,7 @@
     - green (success), red (failure), yellow (warning)
     - configurable colors and ANSI styling
 
+- Easy ability to have base commands in subcommands turn into submenus
+- Configurable signal handlers
+  - Linux/UNIX signals
+  - Windows??
